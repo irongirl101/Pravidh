@@ -27,6 +27,13 @@ const displayItems = (item, index, active) => {
   const zIndex = getZindex([...$items], active)[index]
   item.style.setProperty('--zIndex', zIndex)
   item.style.setProperty('--active', (index-active)/$items.length)
+  
+  // Add active class only to the focused item
+  if (index === active) {
+    item.classList.add('active')
+  } else {
+    item.classList.remove('active')
+  }
 }
 
 /*--------------------
