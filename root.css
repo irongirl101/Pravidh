@@ -22,15 +22,14 @@ body {
   right: 20px;
   z-index: 1;
   width: clamp(200px, 50vw, 600px);
-  height: 100%;
+  height: auto%;
   pointer-events: none;
 }
 
 .anniversary-text {
-  font-size: clamp(2rem, 8vw, 5rem);
+  font-size: clamp(2rem, 8vw, 7rem);
   font-weight: 600;
   font-family: 'Dancing Script', cursive;
-  fill: none;
   stroke: rgba(255, 255, 255, 0.8);
   stroke-width: 2;
   stroke-linecap: round;
