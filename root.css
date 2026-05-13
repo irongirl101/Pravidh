@@ -4,7 +4,7 @@
 body {
   overflow: hidden;
   font-family: 'Roboto', serif;
-  background: linear-gradient(135deg, black, #220033);
+  background: linear-gradient(135deg, #9ef4f9, #eaffd6);
 }
 
 @keyframes writeStroke {
@@ -36,7 +36,7 @@ body {
   stroke-linejoin: round;
   stroke-dasharray: 1000;
   stroke-dashoffset: 1000;
-  animation: writeStroke 4s ease-in-out forwards;
+  animation: writeStroke 4s ease-in-out infinite;
 }
 
 .carousel {
